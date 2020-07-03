@@ -24,9 +24,16 @@ var rsvpListener = null;
 var guestbookListener = null;
 
 // Add Firebase project configuration object here
-// var firebaseConfig = {};
-
-// firebase.initializeApp(firebaseConfig);
+const firebaseConfig = {
+  apiKey: "AIzaSyB4iAdm2KrHuQX0K2quhW5yOJK8-Pcd7og",
+  authDomain: "meetup-project-844fd.firebaseapp.com",
+  databaseURL: "https://meetup-project-844fd.firebaseio.com",
+  projectId: "meetup-project-844fd",
+  storageBucket: "meetup-project-844fd.appspot.com",
+  messagingSenderId: "609264014606",
+  appId: "1:609264014606:web:b3f520a8d75b28a6f6b35f"
+};
+firebase.initializeApp(firebaseConfig);
 
 // FirebaseUI config
 const uiConfig = {
